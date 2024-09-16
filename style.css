@@ -1,0 +1,152 @@
+@import url(https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Inter;
+}
+
+.wrapper {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://wallpapercave.com/wp/wp9454005.jpg);
+    background-size: cover;
+}
+
+.wrapper .apresentation {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    width: 400px;
+    box-shadow: 0px 5px 15px #00000069, -5px -5px 15px #00000069
+}
+
+.wrapper .apresentation .welcome-text {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.wrapper .apresentation .welcome-text svg {
+    fill: #540081;
+    width: 20px;
+    height: 20px;
+}
+
+.wrapper .apresentation .logo img {
+    width: 50px;
+}
+
+.wrapper .apresentation p {
+    text-align: center;
+    font-size: 12px;
+}
+
+.wrapper .apresentation  img {
+    width: 250px;
+}
+
+.wrapper .apresentation .credits {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.wrapper .apresentation .credits p {
+    font-size: 10px;
+}
+
+.wrapper .apresentation .credits div {
+    width: 1px;
+    height: 10px;
+    background-color: #000;
+}
+
+.wrapper .content h1 {
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 25px;
+}
+
+.wrapper .content {
+    background-color: #00000069;
+    backdrop-filter: blur(5px);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+    box-shadow: 5px 5px 15px #00000069, 0px -5px 15px #00000069;
+}
+
+.wrapper .content .user-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.wrapper .content .user-form div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: #fff;
+}
+
+.wrapper .content .user-form div label {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.wrapper .content .user-form div label svg {
+    width: 15px;
+    height: 15px;
+    fill: #fff;
+}
+
+.wrapper .content .user-form div input {
+    width: 250px;
+    height: 30px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    padding: 2px 10px;
+    background: none;
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+.wrapper .content .user-form div input::placeholder {
+    color: #ffffff92;
+}
+
+.wrapper .content .user-form div button {
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #fff;
+    border: none;
+    align-self: center;
+    color: #540081;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.wrapper .content .user-form div button:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: all 200ms;
+}
+
+.wrapper .content .user-form div button:active {
+    transform: translateY(5px);
+}
